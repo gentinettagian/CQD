@@ -1,0 +1,7 @@
+flax==0.8.3
+jax==0.4.35
+netket==3.16.0.post2
+numpy==2.2.2
+PennyLane==0.36.0
+scipy==1.15.1
+setuptools==67.6.1
