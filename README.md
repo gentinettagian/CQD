@@ -16,15 +16,15 @@ This repository contains the code accompanying the article on hybrid quantum-cla
 
 
 ## Installation
-To run the code, ensure you have Python installed along with the required dependencies. Install dependencies using:
+To run the code, ensure you have Python installed along with the required dependencies. To install the package, clone this repository and run:
 ```bash
-pip install -r requirements.txt
+pip install -e /path/to/cqd
 ```
 
 ## Citation
 If you use this code in your research, please cite our work:
 ```
-@misc{gentinetta2025correctingextendingtrotterizedquantum,
+@misc{gentinetta2025cqd,
       title={Correcting and extending Trotterized quantum many-body dynamics}, 
       author={Gian Gentinetta and Friederike Metz and Giuseppe Carleo},
       year={2025},
