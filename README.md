@@ -24,12 +24,14 @@ pip install -r requirements.txt
 ## Citation
 If you use this code in your research, please cite our work:
 ```
-@article{your_reference,
-  title={Hybrid Quantum-Classical Simulation of Quantum Many-Body Dynamics},
-  author={Author Names},
-  journal={Journal Name},
-  year={202X},
-  doi={DOI}
+@misc{gentinetta2025correctingextendingtrotterizedquantum,
+      title={Correcting and extending Trotterized quantum many-body dynamics}, 
+      author={Gian Gentinetta and Friederike Metz and Giuseppe Carleo},
+      year={2025},
+      eprint={2502.13784},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph},
+      url={https://arxiv.org/abs/2502.13784}, 
 }
 ```
 
