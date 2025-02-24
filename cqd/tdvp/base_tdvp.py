@@ -156,9 +156,10 @@ class BaseTDVP:
             callback: A function that will be called at each time step with the current time and state.
                 has the signature `callback(time, theta, self)`.
         """
+        end_time = self.t + end_time
         if self.integrator is None:
             raise ValueError("No integrator provided.")
-        integrator = self.integrator(self._odefun, 0.0, self.theta0)
+        integrator = self.integrator(self._odefun, self.t, self.theta0)
         while integrator.t < end_time:
             integrator.step()
             self.evolve_quantum_state(integrator.t - self.t)

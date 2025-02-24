@@ -13,6 +13,7 @@
 # limitations under the License.
 
 from .base_tdvp import BaseTDVP, get_structure
+from .callback import CQDCallback
 from .hybrid_tdvp import HybridTDVP
 from .two_sub_tdvp import TwoSubTDVP
 from .trotter import (
